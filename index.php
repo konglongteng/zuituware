@@ -1,4 +1,5 @@
 <?php
+echo 'ÁúÌÚºÇºÇ';
 require_once(dirname(__FILE__) . '/app.php');
 
 if(!$INI['db']['host']) redirect( WEB_ROOT . '/install.php' );
